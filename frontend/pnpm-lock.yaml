@@ -50,6 +50,9 @@ importers:
       svelte-check:
         specifier: ^4.0.0
         version: 4.0.2(svelte@4.2.19)(typescript@5.6.2)
+      svelte-routing:
+        specifier: ^2.13.0
+        version: 2.13.0
       typescript:
         specifier: ^5.0.0
         version: 5.6.2
@@ -1036,6 +1039,9 @@ packages:
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: ^3.19.0 || ^4.0.0
+
+  svelte-routing@2.13.0:
+    resolution: {integrity: sha512-/NTxqTwLc7Dq306hARJrH2HLXOBtKd7hu8nxgoFDlK0AC4SOKnzisiX/9m8Uksei1QAWtlAEdF91YphNM8iDMg==}
 
   svelte@4.2.19:
     resolution: {integrity: sha512-IY1rnGr6izd10B0A8LqsBfmlT5OILVuZ7XsI0vdGPEvuonFV7NYEUK4dAkm9Zg2q0Um92kYjTpS1CAP3Nh/KWw==}
@@ -2052,6 +2058,8 @@ snapshots:
   svelte-hmr@0.16.0(svelte@4.2.19):
     dependencies:
       svelte: 4.2.19
+
+  svelte-routing@2.13.0: {}
 
   svelte@4.2.19:
     dependencies:
